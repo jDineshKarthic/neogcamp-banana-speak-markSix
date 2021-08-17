@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+   
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Lobster',cursive;
+    color: #333333;
+}
+:root{
+    --primary-color:rgb(238, 217, 29);
+    --width-break: 600px;
+}
+nav{
+
+    text-align:center;
+    padding: 1px 4px;
+    margin-bottom: 5px;
+    background-color: rgb(238, 217, 29);
+    font-family: 'Lobster' ;
+    font-size: 2rem;
+    font-weight: 200;
+    
+}
+main{
+    margin: 0px auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+button{
+    background-color: var(--primary-color);
+    border:none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem; 
+    font-size: 1.1rem;
+    font-family: 'Lobster' ;
+
+
+}
+div{
+    font-family: 'Lobster' ;
+
+}
+textarea{
+    /* box-sizing: border-box;
+    display: block;
+   
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem ;
+    margin:auto;
+    font-size: large;
+   font-family: 'Lobster' ; */
+     border: 2px solid var(--primary-color); 
+
+    
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        min-height: 20vh;
+        margin-top: 2rem;
+        font-size: large;
+        font-family: inherit;
+    
+
+
+}
+#output{
+    box-sizing: border-box;
+    width: 95%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 2px solid var(--primary-color);
+}
+footer{
+    box-sizing: border-box;
+    text-align: center;
+    position: fixed;
+bottom: 0;
+width: 100%;
+padding: 1rem;
+background-color: var(--primary-color);
+}
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
